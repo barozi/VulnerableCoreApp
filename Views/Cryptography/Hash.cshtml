@@ -1,0 +1,18 @@
+@{
+    ViewData["Title"] = "Old hashing algorythm";
+}
+
+<div class="row">
+    <h1 class="text-center">Old cryptography algorythm</h1>
+</div>
+<div class="row">
+    <p>Usage of MD5 hashing algorythm</p>
+</div>
+div class="row">
+  <form asp-controller="Cryptography" asp-action="Hash" method="post">
+      <div class="form-group">
+          <input class="form-control" id="Text" name="Text" type="text" placeholder="Comment" style="resize: none"></input>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+</div>
